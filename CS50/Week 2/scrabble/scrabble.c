@@ -4,10 +4,8 @@ int points[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 
 
 typedef char *string;
 
-long unsigned int strlen(char *string);
-
+long unsigned int strlen(string string);
 int toupper(int letter);
-
 int compute_score(string word);
 
 int main(void){
@@ -27,7 +25,7 @@ int main(void){
     printf("%s\n", score1 > score2 ? "Player 1 wins!" : (score2 > score1 ? "Player 2 wins!" : "Tie!"));
 }
 
-long unsigned int strlen(char *string){
+long unsigned int strlen(string string){
     int i;
     for (i = 0; string[i] != '\0'; i++){
     }
