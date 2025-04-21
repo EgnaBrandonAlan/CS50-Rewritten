@@ -2,7 +2,6 @@
 
 typedef char *string;
 
-
 long unsigned int strlen(string string);
 int int_round(float number);
 int isalpha(int character);
